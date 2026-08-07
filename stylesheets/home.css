@@ -1,0 +1,28 @@
+body {
+    color: black;
+    background-color: honeydew;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', "Apple Braille", serif;
+}
+
+p {
+    font-family: 'Trebuchet MS', "Apple Braille", serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', "Apple Braille", serif;
+}
+
+label {
+    font-family: 'Trebuchet MS', "Apple Braille", serif;
+}
+
+button {
+    font-family: 'Trebuchet MS', "Apple Braille", serif;
+}
+
+textarea {
+    font-family: 'Trebuchet MS', "Apple Braille", serif;
+}

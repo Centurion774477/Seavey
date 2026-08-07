@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seavey</title>
+
+    <link rel="stylesheet" href="../stylesheets/home.css">
+</head>
+<body>
+
+<h1>Seavey</h1>
+<div id="buttons">
+    <div id="download-buttons">
+        <p>download</p>
+        <button id="download-button">download this project</button>
+    </div>
+
+    <p id="lazy-download-message" style="display: none">
+        Despite all the millions of dollars dumped into JavaScript, <br>
+        it still lacks a clean file saving utility. Whatever. I'll just wait for ES7-- <br>
+        assuming they don't just dump a million dollars into useless and esoteric methods that are like 8 words long.
+
+        In the meantime, hit cmd+s because macOS loves you.
+    </p>
+
+    <div id="render-buttons">
+        <p>textile</p>
+        <button id="render-textile">render the textile into a .html file</button>
+    </div>
+
+    <div id="version-control-buttons">
+        <p>version control</p>
+        <button id="version-control-help">help</button>
+        <button id="append-button">append</button>
+        <button id="revisit-button">revisit</button>
+    </div>
+    <p id="hidden-help-content" style="display: none">
+        Append: save your current data to be revisited <br>
+        Revisit: load the last session <br>
+
+        Note that this system operates on one save, <br>
+        so your changes are being overwritten everytime you use the append button.
+    </p>
+</div>
+
+<div id="writing">
+    <h2>Project:</h2>
+
+    <button id="clear-all-fields">Clear all fields</button> <br>
+
+    <label for="project-title">Title:</label> <br>
+    <textarea id="project-title"></textarea>
+    <br>
+    <label for="project-idea">Write your idea here:</label> <br>
+    <textarea id="project-idea" style="height: 250px; width: 200px"></textarea>
+</div>
+
+<script src="../javascripts/home_controller.js"></script>
+</body>
+</html>
