@@ -8,10 +8,10 @@ You can also temporarily save through Seaveys integrated and minimal version con
 
 I designed it this way because the last thing you want to do is click an upload button and navigate to your last file (likely named something similar to "sanma_rough_draft_1"). This system allows you to simply click a button and revisit everything from your last session. A major downside with this system, however, is the lack of multi-project support; it was only ever meant for one project. Therefore, the best practice is to use the append/revisit system to get from first draft to final draft, and then download the file into plain text or HTML.
 
-The CLI for Seavey is still a work in progress, so for now just get the code with git clone and then run `serve -l xxxx` to host your own version of Seavey.
+The CLI for Seavey is still a work in progress, so for now just get the code with git clone and then use your preferred approach to host it.
 
-Seavey is designed to be modular, so go ahead pop open the source code and add some HTML buttons and JavaScript functions.
+Seavey is designed to be modular, so feel free to pop open the hood and add some HTML buttons and JavaScript functions.
 
-The stylesheet provided is extremely minimal: I only changed the background color and fonts. Feel free to edit the stylesheet in your clone, or even fork this project and make a more styled version of Seavey. If you do the latter, just know that your fork won't be merged because it defeats the purpose of Seavey to be a minimal suite when you add gradients and animations.
+The stylesheet provided is extremely minimal; I only changed the background color and fonts. Feel free to edit the stylesheet in your clone, or even fork this project and make a more styled version of Seavey. If you do the latter, just know that your fork won't be merged because it defeats the purpose of Seavey to be a minimal suite when you add gradients and animations.
 
 Enjoy, and if you haver any questions or suggestions shoot me an email at reeceturner1358@gmail.com.
